@@ -93,9 +93,11 @@ h3:hover {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   transition: 0.3s ease;
   display: none;
+  margin: 10px 0;
+  color: hsl(292, 16%, 49%);
 }
 @media (max-width: 991px) {
   body {
@@ -124,5 +126,8 @@ p {
   button {
     width: 18px;
     height: 18px;
+  }
+  p {
+    font-size: 12px;
   }
 }
